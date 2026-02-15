@@ -1,0 +1,40 @@
+body {
+    padding: 0px;
+    margin: 0px;
+}
+main {
+    display: flex;
+    flex-direction: row;
+    padding: 0px;
+    margin: 0px;
+}
+
+.diceArea {
+    width: 70vw;
+}
+
+.sideBar {
+    border: 1px red solid;
+    display: flex;
+    flex-direction: column;
+    width: 30vw;
+}
+
+.diceScores {
+    height: 24vh;
+    border: 1px darkgreen solid;
+    display: grid;
+    align-content: center;
+}
+
+.diceResult {
+
+}
+
+.userButtons {
+    height: 25vh;
+}
+
+.logo {
+    height: 50vh;
+}
