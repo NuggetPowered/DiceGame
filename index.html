@@ -2,16 +2,21 @@
 <html lang="en-US">
     <head>
         <link rel="stylesheet" href="styles.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Eagle+Lake&display=swap" rel="stylesheet">
     </head>
     <body>
         <main>
             <div class="diceArea">
-                
+                        <!-- 
+                <div class="dice">1</div>
+            -->
             </div>
             <div class="sideBar">
                 <div class="settings">
-                    <span>Dice size</span>
-                    <select name="dice size" id="diceSize">
+                    <span>Dice</span>
+                    <select id="diceSize">
                         <option value="4">D4</option>
                         <option value="6">D6</option>
                         <option value="8">D8</option>
@@ -20,7 +25,7 @@
                         <option value="20">D20</option>
                     </select>
                     <span>Amount of dice</span>
-                    <select name="dice amount" id="diceAmt">
+                    <select id="diceAmt">
                         <option value="1">1</option>
                         <option value="2">2</option>
                         <option value="3">3</option>
@@ -37,6 +42,8 @@
                 </div>
             </div>
         </main>
-        <script src="/scripts.js"></script>
+        <script type="text/typescript" src="/scripts.ts"></script>
+        <script src="https://unpkg.com/typescript/lib/tsserverlibrary.js"></script>
+        <script src="https://raw.githack.com/basarat/typescript-script/master/transpiler.js"></script>
     </body>
 </html> 

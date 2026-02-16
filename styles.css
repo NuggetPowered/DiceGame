@@ -12,32 +12,83 @@ main {
 
 .diceArea {
     width: 70vw;
-}
-
-.sideBar {
-    border: 1px red solid;
+    margin: 1%;
     display: flex;
-    flex-direction: column;
-    width: 30vw;
-}
-
-.settings {
-    height: 24vh;
-    border: 1px darkgreen solid;
-    display: grid;
-    align-content: center;
-}
-
-
-.diceArea {
+    flex-wrap: wrap;
+    justify-content: space-around;
+    flex-direction: row;
+    margin-top: 30vh;
     font-size: 40px;
 }
 
+.dice {
+    border: 1px blue solid;
+    border-radius: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100px;
+    height: 100px;
+
+}
+
+.sideBar {
+    display: flex;
+    flex-direction: column;
+    width: 30vw;
+    background-image: url(assets/images/leafpattern.png);
+    height: 100vh;
+}
+
+.settings {
+    height: 25vh;
+    display: grid;
+    align-content: center;
+    font-family: "Eagle Lake", serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+    font-size: 20pt;
+}
+
+#diceSize, #diceAmt {
+    background-color: #27362a;
+    color: #cbb530;
+    font-family: "Eagle Lake", serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+    font-size: 15pt;
+    border: 0px white solid;
+    margin-left: 10px;
+    margin-right: 10px;
+}
 
 .userButtons {
-    height: 25vh;
+    display: flex;
+    justify-content: center;
+}
+
+#rollButton, #clearButton {
+    background-color: #27362a;
+    color: #cbb530;
+    font-family: "Eagle Lake", serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+    font-size: 15pt;
+    border: 0px white solid;
+    margin-left: 10px;
+    margin-right: 10px;
+    cursor: pointer;
 }
 
 .logo {
     height: 50vh;
+    background-image: url(assets/images/king.svg);
+    background-repeat: no-repeat;
+    border: 1px solid white;
+    display: flex;
+    justify-content: center;
+    
 }
