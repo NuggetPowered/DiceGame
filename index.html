@@ -6,24 +6,37 @@
     <body>
         <main>
             <div class="diceArea">
-                dice area
+                
             </div>
             <div class="sideBar">
-                <div class="diceScores">
-                    <div class="diceResult"> One </div>
-                    <div class="diceResult"> Two </div>
-                    <div class="diceResult"> Seven </div>
-                    <div class="diceResult"> Five </div>
+                <div class="settings">
+                    <span>Dice size</span>
+                    <select name="dice size" id="diceSize">
+                        <option value="4">D4</option>
+                        <option value="6">D6</option>
+                        <option value="8">D8</option>
+                        <option value="10">D10</option>
+                        <option value="12">D12</option>
+                        <option value="20">D20</option>
+                    </select>
+                    <span>Amount of dice</span>
+                    <select name="dice amount" id="diceAmt">
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                    </select>
                 </div>
                 <div class="userButtons">
                     <button id="rollButton">ROLL</button>
-                    buttons
+                    <button id="clearButton">CLEAR</button>
                 </div>
                 <div class="logo">
                     logo
                 </div>
             </div>
         </main>
+        <script src="/scripts.js"></script>
     </body>
-
 </html> 

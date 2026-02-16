@@ -1,6 +1,7 @@
 body {
     padding: 0px;
     margin: 0px;
+    background-color: grey;
 }
 main {
     display: flex;
@@ -20,16 +21,18 @@ main {
     width: 30vw;
 }
 
-.diceScores {
+.settings {
     height: 24vh;
     border: 1px darkgreen solid;
     display: grid;
     align-content: center;
 }
 
-.diceResult {
 
+.diceArea {
+    font-size: 40px;
 }
+
 
 .userButtons {
     height: 25vh;
